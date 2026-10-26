@@ -1,0 +1,36 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos originales y archivos pesados
+03_Proyecto_Final/data/raw/
+*.duckdb
+*.db
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Copias originales conservadas localmente
+/modulo 1/
+/modulo 2/
+/conjunto_de_datos_edr2024_csv/
