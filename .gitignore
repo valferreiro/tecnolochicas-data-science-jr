@@ -1,4 +1,3 @@
-
 # macOS
 .DS_Store
 .AppleDouble
@@ -11,6 +10,9 @@ __pycache__/
 .venv/
 venv/
 env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -34,3 +36,6 @@ env/
 /modulo 1/
 /modulo 2/
 /conjunto_de_datos_edr2024_csv/
+
+# Jupyter temporales
+*.nbconvert.ipynb
