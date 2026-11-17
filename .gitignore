@@ -39,3 +39,6 @@ env/
 
 # Jupyter temporales
 *.nbconvert.ipynb
+
+# Datos proporcionados como material del curso
+02_Python/notebooks/muestra_100_registros_por_estado.csv
